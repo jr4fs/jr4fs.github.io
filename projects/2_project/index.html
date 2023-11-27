@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>project 2 | Jaspreet  Ranjit</title>
+    <title>Gender Bias in Visual Recognition Models | Jaspreet  Ranjit</title>
     <meta name="author" content="Jaspreet  Ranjit">
-    <meta name="description" content="a project with a background image and giscus comments">
+    <meta name="description" content="Vision, Language, Learning Lab @ UVA">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -87,7 +87,7 @@
                 <a class="nav-link" href="/internships/">internships</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/service/">service &amp; mentorship</a>
+                <a class="nav-link" href="/service/">service &amp; projects</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -118,8 +118,8 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">project 2</h1>
-    <p class="post-description">a project with a background image and giscus comments</p>
+    <h1 class="post-title">Gender Bias in Visual Recognition Models</h1>
+    <p class="post-description">Vision, Language, Learning Lab @ UVA</p>
   </header>
 
   <article>
@@ -277,6 +277,78 @@ Here’s the code for the last row of images above:</p>
 
 
   </article>
+  <h2>References</h2>
+  <div class="publications">
+    <h2 class="bibliography">2023</h2>
+<ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+<div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/variation_gender_biases-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/variation_gender_biases-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/variation_gender_biases-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/variation_gender_biases.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="variation_gender_biases.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+</div>
+<!-- Entry bib key -->
+        <div id="ranjit2023variation" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Variation of Gender Biases in Visual Recognition Models Before and After Finetuning</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Jaspreet Ranjit</em>, Tianlu Wang, Baishakhi Ray, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Vicente Ordonez' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Workshop on Algorithmic Fairness through the Lens of Time at NeuRIPS 2023</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          
+          
+          
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We introduce a framework to measure how biases change before and after fine-tuning a large scale visual recognition model for a downstream task. Deep learning models trained on increasing amounts of data are known to encode societal biases. Many computer vision systems today rely on models typically pretrained on large scale datasets. While bias mitigation techniques have been developed for tuning models for downstream tasks, it is currently unclear what are the effects of biases already encoded in a pretrained model. Our framework incorporates sets of canonical images representing individual and pairs of concepts to highlight changes in biases for an array of off-the-shelf pretrained models across model sizes, dataset sizes, and training objectives. Through our analyses, we find that (1) supervised models trained on datasets such as ImageNet-21k are more likely to retain their pretraining biases regardless of the target dataset compared to self-supervised models. We also find that (2) models finetuned on larger scale datasets are more likely to introduce new biased associations. Our results also suggest that (3) biases can transfer to finetuned models and the finetuning objective and dataset can impact the extent of transferred biases.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+  </div>
 </div>
 
       

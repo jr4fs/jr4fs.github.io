@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>research | Jaspreet  Ranjit</title>
     <meta name="author" content="Jaspreet  Ranjit">
-    <meta name="description" content="A growing collection of your cool projects.">
+    <meta name="description" content="Brief Descriptions of my current and past projects">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -87,7 +87,7 @@
                 <a class="nav-link" href="/internships/">internships</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/service/">service &amp; mentorship</a>
+                <a class="nav-link" href="/service/">service &amp; projects</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -119,166 +119,73 @@
 
   <header class="post-header">
     <h1 class="post-title">research</h1>
-    <p class="post-description">A growing collection of your cool projects.</p>
+    <p class="post-description">Brief Descriptions of my current and past projects</p>
   </header>
 
   <article>
-    <!-- pages/projects.md -->
-<div class="projects">
-  <!-- Display categorized projects -->
-  <h2 class="category">work</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/1_project/">
-      <div class="card hoverable">
-<figure>
+    <p><a name="toc"></a> I am very grateful to be advised by <a href="https://swabhs.com/" rel="external nofollow noopener" target="_blank">Prof. Swabha Swayamdipta</a> and to be collaborating with students in the USC NLP Department and USC Dworak-Peck School of Social Work!</p>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/12-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/12-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/12-1400.webp"></source>
-    
+<h3 id="high-level-motivation"><strong>High Level Motivation</strong></h3>
+<p>My research interests lie in investigating societal biases in datasets, measuring the propagation of such biases learned by models in downstream tasks and reasoning about the broader implications of fairness in applications of NLP for social good. An individual’s values and biases heavily influence the construction of datasets and are reflected in potentially harmful correlations in data. I want to construct better quality datasets that incorporate human values and social dynamics to drive our understanding of societal issues such as homelessness, racial and gender disparities, and the framing of marginalized social groups in datasets.</p>
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/12.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
+<p>I feel excited about the implications of fairness in bias measurement and mitigation for quantifying the success and failure modes of models in reasoning about societal issues, and in developing scalable computational methods to gain a more comprehensive understanding of how models can learn societal biases that propagate to downstream tasks.</p>
 
-</figure>
+<h3 id="what-i-am-currently-working-on--">
+<strong>What I am currently working on ?</strong> <a name="current"></a>
+</h3>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">project 1</h2>
-          <p class="card-text">a project with a background image</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/2_project/">
-      <div class="card hoverable">
-<figure>
+<h4 id="characterizing-attitudes-towards-homelessness-on-social-media-">Characterizing Attitudes Towards Homelessness on Social Media <a name="current-first"></a>
+</h4>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/3-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/3-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/3-1400.webp"></source>
-    
+<p>Discourse on social media about homelessness elicits a diverse spectrum of attitudes that are confounded with complex socio-political factors making it extremely challenging to characterize attitudes towards homelessness on social media at scale. Furthermore, even toxicity classifiers and LLMs fail at capturing its nuances which motivates the need for structured pragmatic frames for a more comprehensive understanding of this discourse.</p>
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/3.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
+<p>In this project, our research team (<a href="https://rebedorn.github.io/" rel="external nofollow noopener" target="_blank">Rebecca Dorn</a>, <a href="https://olgakoumoundouros.art/" rel="external nofollow noopener" target="_blank">Olga Koumoundouros</a>, <a href="https://www.linkedin.com/in/laura-petry-45225041/" rel="external nofollow noopener" target="_blank">Laura Petry</a>, <a href="https://dworakpeck.usc.edu/academics/faculty-directory/eric-rice" rel="external nofollow noopener" target="_blank">Eric Rice</a> and <a href="https://swabhs.com/" rel="external nofollow noopener" target="_blank">Prof. Swabha Swayamdipta</a>) aim to:</p>
 
-</figure>
+<ol>
+  <li>Evaluate the effectiveness of language models at reasoning about attitudes towards homelessness by developing a codebook grounded in framing theory from sociology (Goffman, 1974)</li>
+  <li>Finetune models on an expert annotated dataset to infer our frames developed from our codebook</li>
+  <li>Conduct analyses with respect to socio-political dimensions to characterize how attitudes differ across regionality.</li>
+</ol>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">project 2</h2>
-          <p class="card-text">a project with a background image and giscus comments</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="https://unsplash.com" rel="external nofollow noopener" target="_blank">
-      <div class="card hoverable">
-<figure>
+<p>We also want to explore the effectiveness of LLMs in reasoning about complex discourse on social media on sensitive social topics where we evaluate the use of GPT3.5 to act as an annotator in the loop in labeling a dataset on the topic of homelessness. We find that even approaches that combine Chain-of-Thought Prompting with GPT3.5 are only useful in predicting broad, coarse themes around this discourse. Thus, we utilize human validation in our annotation pipeline to further highlight finer-grained nuances.</p>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/7-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/7-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/7-1400.webp"></source>
-    
+<p>Furthermore, in our data, our structured frames highlight themes unique to our domain where the most salient theme is oriented around using homelessness as a vehicle issue in critiquing government structures.</p>
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/7.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
+<p>The application of LLMs in domains of social science is still widely unexplored due to the socio-political complexities of issues such as homelessness. Prior works on attitudes towards homelessness are grounded in qualitative surveys and ethnographic studies done on a small scale. We motivate the necessity of structured pragmatic frames in comprehensively understanding these issues and further exploring the use of LLMs to understand public discourse.</p>
 
-</figure>
+<p><strong>This is still work in progress!</strong></p>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">project 3</h2>
-          <p class="card-text">a project that redirects to another website</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-  </div>
-  <h2 class="category">fun</h2>
-  <!-- Generate cards for each project -->
-  <div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/4_project/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">project 4</h2>
-          <p class="card-text">another without an image</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/5_project/">
-      <div class="card hoverable">
-<figure>
+<h3 id="past-work-and-projects-">
+<strong>Past Work and Projects</strong> <a name="current"></a>
+</h3>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/1-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/1-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/1-1400.webp"></source>
-    
+<h4 id="variation-of-gender-biases-in-visual-recognition-models-before-and-after-finetuning-">Variation of Gender Biases in Visual Recognition Models Before and After Finetuning <a name="current-second"></a>
+</h4>
 
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/1.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
+<p>In collaboration with <a href="https://tianlu-wang.github.io/" rel="external nofollow noopener" target="_blank">Tianlu Wang</a>, <a href="https://www.rayb.info/" rel="external nofollow noopener" target="_blank">Baishakhi Ray</a>, and <a href="https://www.cs.rice.edu/~vo9/" rel="external nofollow noopener" target="_blank">Vicente Ordonez</a>, we introduce a framework to measure how biases change before and after fine-tuning a large scale visual recognition model for a downstream task.</p>
 
-</figure>
+<p>Many computer vision systems today rely on models typically pretrained on large scale datasets. While bias mitigation techniques have been developed for tuning models for downstream tasks, it is currently unclear what are the effects of biases already encoded in a pretrained model. Our framework incorporates sets of canonical images representing individual and pairs of concepts to highlight changes in biases for an array of off-the-shelf pretrained models across model sizes, dataset sizes, and training objectives.</p>
 
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">project 5</h2>
-          <p class="card-text">a project with a background image</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/6_project/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">project 6</h2>
-          <p class="card-text">a project with no image</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-  </div>
-</div>
+<p>Through our analyses, we find that:</p>
+<ol>
+  <li>Supervised models trained on datasets such as ImageNet-21k are more likely to retain their pretraining biases regardless of the target dataset compared to self-supervised models.</li>
+  <li>Models finetuned on larger scale datasets are more likely to introduce new biased associations. Our results also suggest that</li>
+  <li>Biases can transfer to finetuned models and the finetuning objective and dataset can impact the extent of transferred biases.</li>
+</ol>
+
+<p><a href="https://arxiv.org/abs/2303.07615" rel="external nofollow noopener" target="_blank">Our work</a> was recently accepted at the <a href="https://www.afciworkshop.org/" rel="external nofollow noopener" target="_blank">Workshop on Algorithmic Fairness through the Lens of Time</a> at NeuRIPS 2023. New Orleans, LA.</p>
+
+<h4 id="scenario2vector-scenario-description-language-based-embeddings-for-traffic-situations-">Scenario2Vector: scenario description language based embeddings for traffic situations <a name="current-second"></a>
+</h4>
+
+<p>In collaboration with <a href="https://www.linkedin.com/in/aron-harder-a81052115/" rel="external nofollow noopener" target="_blank">Aron Harder</a> and <a href="https://www.madhurbehl.com/" rel="external nofollow noopener" target="_blank">Madhur Behl</a>, we propose Scenario2Vector - a Scenario Description Language (SDL) based embedding for traffic situations that allows us to automatically search for similar traffic situations from large AV data-sets. Our SDL embedding distills a traffic situation experienced by an AV into its canonical components - actors, actions, and the traffic scene. We can then use this embedding to evaluate similarity of different traffic situations in vector space.</p>
+
+<p>Safety assessments for automated vehicles need to evolve beyond the existing voluntary self-reporting. There is no comprehensive measuring stick that can compare how far each AV developer is in terms of safety. Our goal in this research is to answer the following question: How can we fairly compare two different AV implementations? In doing so, the aim of this work is to make progress towards an innovative certification method allowing for a fair comparison between AVs by comparing them on similar traffic situations.</p>
+
+<p>The goal of our research is to provide a common metric that will facilitate the comparison of different autonomous vehicle algorithms. In order to compare the different AVs, we need to observe them under similar traffic conditions or scenarios. Our goal therefore is to find similar traffic scenarios from the datasets generated by different AVs. Having found similar traffic situations, we can then observe if the output of one AV is more safe/optimal compared to another. To this end, we also present a first of its kind -Traffic Scenario Similarity (TSS) dataset. This dataset contains 100 traffic video samples (scenarios) and for each sample, it contains 6 candidate scenario videos ranked by human participants based on its similarity to the baseline sample.</p>
+
+<p><a href="https://dl.acm.org/doi/abs/10.1145/3450267.3450544" rel="external nofollow noopener" target="_blank">Our work</a> was accepted in the <a href="http://iccps.acm.org/2021/" rel="external nofollow noopener" target="_blank">Proceedings of the ACM/IEEE 12th International Conference on Cyber-Physical Systems</a> at ICCPS 2021. Nashville, TN.</p>
+
 
   </article>
 </div>

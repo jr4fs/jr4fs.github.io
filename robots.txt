@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://jr4fs.github.io/sitemap.xml

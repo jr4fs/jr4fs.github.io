@@ -2,12 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <script type="text/javascript">
-      // Redirect all 404 requests to index.html (SPA routing)
-      var segment = window.location.pathname.split("/");
-      var redirect = "/" + segment.slice(1).join("/");
-      sessionStorage.redirect = redirect;
-      window.location.replace("/");
+    <script>
+      // Only redirect if the user is not visiting the root
+      var redirect = window.location.pathname;
+      // Prevent infinite redirect loops
+      if (redirect !== "/") {
+        sessionStorage.redirect = redirect;
+        window.location.replace("/");
+      }
     </script>
   </head>
   <body></body>

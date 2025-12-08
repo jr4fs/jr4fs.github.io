@@ -1,5 +1,7 @@
 import ReactDOM from "react-dom/client";
-import { createHashRouter, RouterProvider } from "react-router-dom";
+// import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import App from "./App.tsx";
 import Travel from "./components/Travel/Travel.tsx";
 import Home from "./components/Home.tsx";
@@ -93,7 +95,7 @@ const theme = createTheme({
   primaryColor: "pink",
 });
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,

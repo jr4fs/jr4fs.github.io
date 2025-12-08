@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <script>
+    (function () {
+      const redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect !== "/") {
+        window.history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/square-crop.png" />
   <!-- <link rel="icon" href="/fav.png" sizes="1x5" type="image/png" /> -->

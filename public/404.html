@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+      // Redirect all 404 requests to index.html (SPA routing)
+      var segment = window.location.pathname.split("/");
+      var redirect = "/" + segment.slice(1).join("/");
+      sessionStorage.redirect = redirect;
+      window.location.replace("/");
+    </script>
+  </head>
+  <body></body>
+</html>

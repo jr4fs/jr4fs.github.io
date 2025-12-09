@@ -73,7 +73,7 @@ function Masthead() {
             I study how humans and AI systems can collaborate to complete high-impact societal tasks more effectively. My work examines when language models meaningfully augment expert judgment, where they fail, and how to design safety and alignment mechanisms, such as abstention and expert-guided knowledge extraction, that keep model behavior accountable to human values. I focus on domains like homelessness services and suicide prevention, where reliable collaboration and expert oversight are essential.
           </p>
           <p>
-            Previously, I interned with the Social and Responsible AI Team at <a href="https://social-dynamics.net/newsletter/2024/">Bell Labs</a>, I was a Research Assistant in the <a href="https://www.vislang.ai/">Vision, Language and Learning Lab,</a>
+            Previously, I interned with the Social and Responsible AI Team at <a href="https://social-dynamics.net/newsletter/2024/">Bell Labs</a>, and I was a Research Assistant in the <a href="https://www.vislang.ai/">Vision, Language and Learning Lab,</a>
             working with <a href="https://www.vicenteordonez.com/">Prof. Vicente Ord&oacute;&ntilde;ez - Rice Univ.</a> and <a href="https://tianlu-wang.github.io/">Tianlu Wang - Meta Research </a>  on exploring gender biases in Visual Recognition Models. 
 
             I graduated with my Master's in Computer Science from the <a href="https://engineering.virginia.edu/">University of Virginia</a>. I received my Bachelor of Science at the University of Virginia in Computer Science as a Rodman Scholar. 

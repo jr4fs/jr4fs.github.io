@@ -37,7 +37,7 @@ import automatingPaper from "../../../public/assets/2025_AIJobs_Jaspreet.pdf"
 
 const pubs: Pub[] = [
 {
-  title: "re We Automating the Joy Out of Work?  Designing AI to Augment Work, Not Meaning",
+  title: "Are We Automating the Joy Out of Work?  Designing AI to Augment Work, Not Meaning",
   author:
     "Jaspreet Ranjit, Ke Zhou, Swabha Swayamdipta, Daniele Quercia",
   venue: "Under Review",

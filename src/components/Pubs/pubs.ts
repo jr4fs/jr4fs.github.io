@@ -43,7 +43,7 @@ const pubs: Pub[] = [
   venue: "Under Review",
   image: automatingJobs,
   summary:
-    "We study whether AI is automating the parts of work people actually care about, and what workers want from AI tools compared to what developers build. We study whether AI is automating the parts of work people actually care about, and what workers want from AI tools compared to what developers build. Using surveys scaled from 171 tasks to 10,131, we find mismatches in priorities and signs that tasks linked to agency and happiness may be especially exposed to automation, motivating a research agenda for AI that centers meaningful work and worker needs.",
+    "Prior work has mapped which workplace tasks are exposed to AI, but less is known about whether workers perceive these tasks as meaningful or as busywork. We surveyed workers and developers on a representative sample of 171 tasks and use language models to scale ratings to 10,131 tasks across all U.S. computer-assisted tasks. Worryingly, we find that tasks that workers associate with a sense of agency or happiness may be disproportionately exposed to AI. We also document HCI design gaps between workers and developers and propose a  five-part research agenda explicitly centering AI design on meaningful work and worker needs.",
   paper: automatingPaper,
   // code: "https://github.com/dill-lab/interventions_lm_assistants",
   // award: "Runner up for best doctoral oral presentation at ShowCAIS 2025",
@@ -55,10 +55,10 @@ const pubs: Pub[] = [
   title: "Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants",
   author:
     "Jaspreet Ranjit, Hyundong J. Cho, Claire J. Smerdon, Yoonsoo Nam, Myles Phung, Jonathan May, John R. Blosnich, Swabha Swayamdipta",
-  venue: "GenAI4Health NeurIPS, EAAMO, ShowCAIS",
+  venue: "GenAI4Health @NeurIPS, EAAMO, ShowCAIS",
   image: nvdrs,
   summary:
-    "We show that language models can help researchers label death narratives by matching expert annotations 85% of the time and pointing out cases that contain discrepancies. We also introduce a human-in-the-loop method that accelerates the creation of new annotation guidelines without losing quality.",
+    "We use language models to help suicide-prevention experts extract data-driven insights and develop new interventions using death narratives. We find that LMs can serve as effective assistants in validating expert annotations (85% agreement), and when they disagree, expert review finds our LM assistant surfaces annotation errors in 38% of cases. We also introduce a human-in-the-loop method that helps experts build and refine new annotation guidelines accelerating the process from weeks to hours in a real world case study. ",
   paper: "https://arxiv.org/abs/2508.18541",
   code: "https://github.com/dill-lab/interventions_lm_assistants",
   award: "Runner up for best doctoral oral presentation at ShowCAIS 2025",
@@ -74,7 +74,7 @@ const pubs: Pub[] = [
   venue: "Proceedings of EMNLP",
   image: oath,
   summary:
-    "We create OATH-Frames, a structured way to label attitudes toward homelessness, and show that GPT-4 can help experts annotate these frames much faster with minimal loss in accuracy. Using these labels, we analyze 2.4M social media posts and uncover regional and group-specific differences in how people talk about homelessness.",
+    "Public attitudes towards key societal issues (e.g., homelessness), are of immense value in policy and reform efforts, yet challenging to understand at scale. We introduce a framing typology: Online Attitudes Towards Homelessness (OATH) Frames: nine hierarchical frames capturing critiques, responses and perceptions. We release annotations with varying degrees of assistance from language models, with immense benefits in scaling: 6.5x speedup in annotation time while only incurring a 3 point F1 reduction in performance with respect to the domain experts.",
   paper: "https://arxiv.org/abs/2406.14883",
   code: "https://github.com/dill-lab/oath-frames",
   project: "https://dill-lab.github.io/oath-frames/",
@@ -106,7 +106,7 @@ const pubs: Pub[] = [
     "Workshop on Algorithmic Fairness through the Lens of Time at NeurIPS",
   image: variationGenderBiases,
   summary:
-    "We present a framework that measures how visual recognition biases change before and after fine-tuning by testing models on carefully designed image sets. Our analysis shows that supervised models retain more pretraining bias, large finetuning datasets introduce new biases, and bias transfer depends strongly on the finetuning setup.",
+    "We present a framework that measures how gender biases change before and after fine-tuning visual recognition models. Our analysis shows that supervised models retain more pretraining bias, whereas models finetuned on larger datasets introduce more biases, and bias transfer depends strongly on the finetuning setup.",
   paper: "https://arxiv.org/abs/2303.07615",
   year: 2023,
   tags:[]
@@ -118,7 +118,7 @@ const pubs: Pub[] = [
   venue: "Vimeo Engineering Blog",
   image: vimeo,
   summary:
-    "A discussion of how algorithmic biases manifest in search and recommendation pipelines at scale, and methods for detecting and mitigating bias in production systems.",
+    "We study how algorithmic biases manifest in search and recommendation pipelines at scale, and propose methods for detecting and mitigating bias in Learning to Rank systems.",
   paper:
     "https://medium.com/vimeo-engineering-blog/uncovering-bias-in-search-and-recommendations-751b01d1c874",
   year: 2021,
@@ -131,7 +131,7 @@ const pubs: Pub[] = [
   venue: "Expedition Technology Blog",
   image: expedition,
   summary:
-    "A technical deep dive into designing anchorless object detection methods for 3D point cloud data during a machine learning internship at Expedition Technology.",
+    "We design anchorless object detection methods for 3D point cloud data using CenterNet and VoxelNet Architectures.",
   paper:
     "https://www.exptechinc.com/my-summer-at-expedition-technology-as-a-machine-learning-intern/",
   year: 2019,

@@ -21,7 +21,7 @@ export type Pub = {
 };
 
 // import images from dir
-// import automatingJobs from "../../images/pubs/automating_jobs.png";
+import automatingJobs from "../../images/pubs/automating_jobs.png";
 // import brownianMotion from "../../images/pubs/brownian-motion.gif";
 // import expeditionLogo from "../../images/pubs/expedition_logo.png";
 import expedition from "../../images/pubs/expedition.png";
@@ -33,8 +33,24 @@ import oath from "../../images/pubs/oath.png";
 import sce2vec from "../../images/pubs/sce2vec.png";
 import variationGenderBiases from "../../images/pubs/variation_gender_biases.png";
 import vimeo from "../../images/pubs/vimeo.png";
+import automatingPaper from "../../../public/assets/2025_AIJobs_Jaspreet.pdf"
 
 const pubs: Pub[] = [
+{
+  title: "re We Automating the Joy Out of Work?  Designing AI to Augment Work, Not Meaning",
+  author:
+    "Jaspreet Ranjit, Ke Zhou, Swabha Swayamdipta, Daniele Quercia",
+  venue: "Under Review",
+  image: automatingJobs,
+  summary:
+    "We study whether AI is automating the parts of work people actually care about, and what workers want from AI tools compared to what developers build. We study whether AI is automating the parts of work people actually care about, and what workers want from AI tools compared to what developers build. Using surveys scaled from 171 tasks to 10,131, we find mismatches in priorities and signs that tasks linked to agency and happiness may be especially exposed to automation, motivating a research agenda for AI that centers meaningful work and worker needs.",
+  paper: automatingPaper,
+  // code: "https://github.com/dill-lab/interventions_lm_assistants",
+  // award: "Runner up for best doctoral oral presentation at ShowCAIS 2025",
+  year: 2025,
+  tags:[]
+},
+
 {
   title: "Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants",
   author:

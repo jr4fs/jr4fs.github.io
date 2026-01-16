@@ -146,10 +146,10 @@ import {
 import MyImage from "../MyImage";
 
 function Publication(props: Pub) {
-  // highlight Catherine Yeh in author list
+  // highlight Jaspreet Ranjit in author list
   const author = props.author.replace(
-    "Catherine Yeh",
-    "<span class='emphasis grad2 accent'>Catherine Yeh</span>"
+    "Jaspreet Ranjit",
+    "<span class='emphasis grad2 accent'>Jaspreet Ranjit</span>"
   );
 
   return (

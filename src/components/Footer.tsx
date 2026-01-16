@@ -6,7 +6,7 @@ function Footer() {
       <Group justify="space-between" className="footer-group">
         <p>
           Website design credits to Catherine Yeh 🌸 {" "}
-          <span className="lighter">(Updated December 2025)</span>
+          <span className="lighter">(Updated January 2026)</span>
         </p>
 
         <a onClick={() => window.scrollTo(0, 0)} title="Back to top">

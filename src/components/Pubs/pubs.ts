@@ -34,7 +34,7 @@ import sce2vec from "../../images/pubs/sce2vec.png";
 import variationGenderBiases from "../../images/pubs/variation_gender_biases.png";
 import vimeo from "../../images/pubs/vimeo.png";
 import automatingPaper from "../../../public/assets/2025_AIJobs_Jaspreet.pdf"
-import covertPaper from "../../../public/assets/_FAccT_2026__Uncovering_and_Mitigating_Covert_Dialect_Bias_in_LLMs.pdf"
+import covertPaper from "../../../public/assets/covert_paper.pdf"
 import covertBiases from "../../images/pubs/Figure1_COV_updated.png";
 
 const pubs: Pub[] = [
@@ -45,7 +45,7 @@ const pubs: Pub[] = [
   venue: "Under Review @FAccT",
   image: covertBiases,
   summary:
-    "Language models can exhibit systematic biases against speakers based on variations in their dialects, a behavior known as covert dialect bias. We quantify covert dialect bias in online discourse by evaluating how LMs associate stereotypical traits (derived from social psychology research on racial bias) with intent-equivalent tweets in Standard American English (SAE) and African-American Vernacular English (AAVE). We are surprised to find that this bias is significantly exacerbated when SAE / AAVE tweet pairs are compared side-by-side, and this bias only worsens when dialect labels are explicitly specified. Encouragingly, we show that counterfactual fairness finetuning can mitigate covert dialect bias for some stereotypical traits.",
+    "Language models can exhibit covert dialect bias, systematically associating negative stereotypes with certain dialects. We measure this bias by evaluating how models assign stereotypical traits to intent-equivalent tweets in Standard American English (SAE) and African American Vernacular English (AAVE). We find that bias is amplified when tweets are compared side-by-side and further worsens when dialect labels are made explicit. We introduce counterfactual fairness fine-tuning to mitigate this bias for some traits.",
   paper: covertPaper,
   // code: "https://github.com/dill-lab/interventions_lm_assistants",
   award: "Best Responsible AI Impact Award at SoCal AI Responsibility Summit'25",

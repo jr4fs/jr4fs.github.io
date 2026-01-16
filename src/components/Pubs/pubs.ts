@@ -41,11 +41,11 @@ const pubs: Pub[] = [
 {
   title: "Side-by-side Comparison Amplifies Dialect Bias in Language Models",
   author:
-    "Jaspreet Ranjit, Ke Zhou, Swabha Swayamdipta, Daniele Quercia",
+    "Kritee Kondapally, Claire J. Smerdon, Pooja Chetan Patel, Ogheneyoma Akoni, Jevon Torres, Jaspreet Ranjit, Matthew Finlayson, Swabha Swayamdipta ",
   venue: "Under Review @FAccT",
   image: covertBiases,
   summary:
-    "Prior work has mapped which workplace tasks are exposed to AI, but less is known about whether workers perceive these tasks as meaningful or as busywork. We surveyed workers and developers on a representative sample of 171 tasks and use language models to scale ratings to 10,131 tasks across all U.S. computer-assisted tasks. Worryingly, we find that tasks that workers associate with a sense of agency or happiness may be disproportionately exposed to AI. We also document HCI design gaps between workers and developers and propose a  five-part research agenda explicitly centering AI design on meaningful work and worker needs.",
+    "Language models can exhibit systematic biases against speakers based on variations in their dialects, a behavior known as covert dialect bias. We quantify covert dialect bias in online discourse by evaluating how LMs associate stereotypical traits (derived from social psychology research on racial bias) with intent-equivalent tweets in Standard American English (SAE) and African-American Vernacular English (AAVE). We are surprised to find that this bias is significantly exacerbated when SAE / AAVE tweet pairs are compared side-by-side, and this bias only worsens when dialect labels are explicitly specified. Encouragingly, we show that counterfactual fairness finetuning can mitigate covert dialect bias for some stereotypical traits.",
   paper: covertPaper,
   // code: "https://github.com/dill-lab/interventions_lm_assistants",
   award: "Best Responsible AI Impact Award at SoCal AI Responsibility Summit'25",

@@ -409,7 +409,7 @@ const updates: Update[] = [
     ],
   },
   {
-    text: "Our work on 'Are We Automating the Joy Out of Work? Designing AI to Augment Work, Not Meaning' was accepted to CHI'2026! Link to paper.",
+    text: "Our work on 'Are We Automating the Joy Out of Work? Designing AI to Augment Work, Not Meaning' was accepted to CHI'2026, see you in Barcelona! Link to paper.",
     month: "January",
     year: 2026,
     tags: ["paper"],

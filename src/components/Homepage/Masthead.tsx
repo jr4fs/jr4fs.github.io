@@ -79,7 +79,7 @@ function Masthead() {
             I graduated with my Master's in Computer Science from the <a href="https://engineering.virginia.edu/">University of Virginia</a>. I received my Bachelor of Science at the University of Virginia in Computer Science as a Rodman Scholar. 
 
             You can find more information in my{" "}
-            <a target="_blank" href={"/assets/Resume_2025.pdf"} title="CV">
+            <a target="_blank" href={"/assets/Resume_2026.pdf"} title="CV">
               CV.
             </a>
 

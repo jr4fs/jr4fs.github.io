@@ -34,20 +34,37 @@ import sce2vec from "../../images/pubs/sce2vec.png";
 import variationGenderBiases from "../../images/pubs/variation_gender_biases.png";
 import vimeo from "../../images/pubs/vimeo.png";
 import automatingPaper from "../../../public/assets/2025_AIJobs_Jaspreet.pdf"
+import covertPaper from "../../../public/assets/_FAccT_2026__Uncovering_and_Mitigating_Covert_Dialect_Bias_in_LLMs.pdf"
+import covertBiases from "../../images/pubs/Figure1_COV_updated.png";
 
 const pubs: Pub[] = [
 {
-  title: "Are We Automating the Joy Out of Work?  Designing AI to Augment Work, Not Meaning",
+  title: "Side-by-side Comparison Amplifies Dialect Bias in Language Models",
   author:
     "Jaspreet Ranjit, Ke Zhou, Swabha Swayamdipta, Daniele Quercia",
-  venue: "Under Review",
+  venue: "Under Review @FAccT",
+  image: covertBiases,
+  summary:
+    "Prior work has mapped which workplace tasks are exposed to AI, but less is known about whether workers perceive these tasks as meaningful or as busywork. We surveyed workers and developers on a representative sample of 171 tasks and use language models to scale ratings to 10,131 tasks across all U.S. computer-assisted tasks. Worryingly, we find that tasks that workers associate with a sense of agency or happiness may be disproportionately exposed to AI. We also document HCI design gaps between workers and developers and propose a  five-part research agenda explicitly centering AI design on meaningful work and worker needs.",
+  paper: covertPaper,
+  // code: "https://github.com/dill-lab/interventions_lm_assistants",
+  award: "Best Responsible AI Impact Award at SoCal AI Responsibility Summit'25",
+  year: 2026,
+  tags:[]
+},
+
+{
+  title: "Are We Automating the Joy Out of Work? Designing AI to Augment Work, Not Meaning",
+  author:
+    "Jaspreet Ranjit, Ke Zhou, Swabha Swayamdipta, Daniele Quercia",
+  venue: "Proceedings of CHI",
   image: automatingJobs,
   summary:
     "Prior work has mapped which workplace tasks are exposed to AI, but less is known about whether workers perceive these tasks as meaningful or as busywork. We surveyed workers and developers on a representative sample of 171 tasks and use language models to scale ratings to 10,131 tasks across all U.S. computer-assisted tasks. Worryingly, we find that tasks that workers associate with a sense of agency or happiness may be disproportionately exposed to AI. We also document HCI design gaps between workers and developers and propose a  five-part research agenda explicitly centering AI design on meaningful work and worker needs.",
   paper: automatingPaper,
   // code: "https://github.com/dill-lab/interventions_lm_assistants",
   // award: "Runner up for best doctoral oral presentation at ShowCAIS 2025",
-  year: 2025,
+  year: 2026,
   tags:[]
 },
 

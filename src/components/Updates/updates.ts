@@ -383,8 +383,22 @@ const updates: Update[] = [
     ],
   },
   {
-    text: "🏆 Voted Judge's Favorite, and receieved Honorable Mention in AI for Social Good Hackathon hosted by LA Tech Week x Lovable. Link to our tool!",
+    text: "🎤 Guest Lecture in AI for Sustainable Development CSCI-461 at USC on 'Human-AI Collaboration: LM Applications for Social Good'",
     month: "Oct",
+    year: 2025,
+    tags: ["talk"],
+    links: [],
+  },
+  {
+    text: "Our work on Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants was selected for an oral presentation at the GenAI4Health workshop at NeurIPS!",
+    month: "Oct",
+    year: 2025,
+    tags: ["talk"],
+    links: [],
+  },
+  {
+    text: "🏆 Voted Judge's Favorite, and receieved Honorable Mention in AI for Social Good Hackathon hosted by LA Tech Week x Lovable. Link to our tool!",
+    month: "Nov",
     year: 2025,
     tags: ["award"],
     links: [
@@ -395,11 +409,16 @@ const updates: Update[] = [
     ],
   },
   {
-    text: "Our work on Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants was selected for an oral presentation at the GenAI4Health workshop at NeurIPS!",
-    month: "Oct",
-    year: 2025,
-    tags: ["talk"],
-    links: [],
+    text: "Our work on 'Are We Automating the Joy Out of Work? Designing AI to Augment Work, Not Meaning' was accepted to CHI'2026! Link to paper.",
+    month: "January",
+    year: 2026,
+    tags: ["paper"],
+    links: [
+      {
+        text: "Link to paper.",
+        url: "https://jr4fs.github.io/assets/2025_AIJobs_Jaspreet-B015Xw8s.pdf"
+      }
+    ],
   },
 
 ];

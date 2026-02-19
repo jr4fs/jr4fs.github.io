@@ -401,12 +401,7 @@ const updates: Update[] = [
     month: "Nov",
     year: 2025,
     tags: ["award"],
-    links: [
-      {
-        text: "Link to our tool!",
-        url: "https://mosaic-ai-spotlight.lovable.app/"
-      }
-    ],
+    links: [],
   },
   {
     text: "Our work on 'Are We Automating the Joy Out of Work? Designing AI to Augment Work, Not Meaning' was accepted to CHI'2026, see you in Barcelona! Link to paper.",

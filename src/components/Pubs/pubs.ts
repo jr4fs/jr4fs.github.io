@@ -72,7 +72,7 @@ const pubs: Pub[] = [
   title: "Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants",
   author:
     "Jaspreet Ranjit, Hyundong J. Cho, Claire J. Smerdon, Yoonsoo Nam, Myles Phung, Jonathan May, John R. Blosnich, Swabha Swayamdipta",
-  venue: "GenAI4Health @NeurIPS, EAAMO, ShowCAIS",
+  venue: "Under Review @ACL'26, GenAI4Health @NeurIPS, EAAMO, ShowCAIS",
   image: nvdrs,
   summary:
     "We use language models to help suicide-prevention experts extract data-driven insights and develop new interventions using death narratives. We find that LMs can serve as effective assistants in validating expert annotations (85% agreement), and when they disagree, expert review finds our LM assistant surfaces annotation errors in 38% of cases. We also introduce a human-in-the-loop method that helps experts build and refine new annotation guidelines accelerating the process from weeks to hours in a real world case study. ",

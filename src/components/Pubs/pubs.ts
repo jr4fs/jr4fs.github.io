@@ -57,13 +57,12 @@ const pubs: Pub[] = [
   title: "Are We Automating the Joy Out of Work? Designing AI to Augment Work, Not Meaning",
   author:
     "Jaspreet Ranjit, Ke Zhou, Swabha Swayamdipta, Daniele Quercia",
-  venue: "Proceedings of CHI",
+  venue: "In Proceedings @CHI'26",
   image: automatingJobs,
   summary:
     "Prior work has mapped which workplace tasks are exposed to AI, but less is known about whether workers perceive these tasks as meaningful or as busywork. We surveyed workers and developers on a representative sample of 171 tasks and use language models to scale ratings to 10,131 tasks across all U.S. computer-assisted tasks. Worryingly, we find that tasks that workers associate with a sense of agency or happiness may be disproportionately exposed to AI. We also document HCI design gaps between workers and developers and propose a  five-part research agenda explicitly centering AI design on meaningful work and worker needs.",
-  paper: automatingPaper,
-  // code: "https://github.com/dill-lab/interventions_lm_assistants",
-  // award: "Runner up for best doctoral oral presentation at ShowCAIS 2025",
+  paper: "https://arxiv.org/abs/2603.14963",
+  project: "https://social-dynamics.net/ai-impact/automating-joy/",
   year: 2026,
   tags:[]
 },
@@ -72,7 +71,7 @@ const pubs: Pub[] = [
   title: "Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants",
   author:
     "Jaspreet Ranjit, Hyundong J. Cho, Claire J. Smerdon, Yoonsoo Nam, Myles Phung, Jonathan May, John R. Blosnich, Swabha Swayamdipta",
-  venue: "Under Review @ACL'26, GenAI4Health @NeurIPS, EAAMO, ShowCAIS",
+  venue: "In Proceedings at @ACL'26, GenAI4Health @NeurIPS, EAAMO, ShowCAIS",
   image: nvdrs,
   summary:
     "We use language models to help suicide-prevention experts extract data-driven insights and develop new interventions using death narratives. We find that LMs can serve as effective assistants in validating expert annotations (85% agreement), and when they disagree, expert review finds our LM assistant surfaces annotation errors in 38% of cases. We also introduce a human-in-the-loop method that helps experts build and refine new annotation guidelines accelerating the process from weeks to hours in a real world case study. ",

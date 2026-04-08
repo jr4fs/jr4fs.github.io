@@ -415,6 +415,30 @@ const updates: Update[] = [
       }
     ],
   },
+  {
+    text: "🏆 Received a best poster award at ShowCAIS 2026 for our ongoing work: Multi-Turn Interactions Reveal Hidden Safety Failures in Mental Health Language Model Use",
+    month: "Apr",
+    year: 2026,
+    tags: ["award"],
+    links: [
+      {
+        text: "ShowCAIS 2026",
+        url: "https://www.linkedin.com/posts/usc-cais_congratulations-to-our-showcais-2026-winners-activity-7447373010698739712-vwuD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWKPtYBIg6pQpeyA1M8YECeJemwDpisPw8"
+      }
+    ],
+  },
+  {
+    text: "Our work on 'Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants' was accepted to ACL'2026, see you in San Diego! Link to paper.",
+    month: "Apr",
+    year: 2026,
+    tags: ["paper"],
+    links: [
+      {
+        text: "Link to paper.",
+        url: "https://arxiv.org/abs/2508.18541"
+      }
+    ],
+  },
 
 ];
 

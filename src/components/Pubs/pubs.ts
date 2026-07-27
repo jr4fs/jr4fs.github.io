@@ -33,21 +33,37 @@ import oath from "../../images/pubs/oath.png";
 import sce2vec from "../../images/pubs/sce2vec.png";
 import variationGenderBiases from "../../images/pubs/variation_gender_biases.png";
 import vimeo from "../../images/pubs/vimeo.png";
-import automatingPaper from "../../../public/assets/2025_AIJobs_Jaspreet.pdf"
+// import automatingPaper from "../../../public/assets/2025_AIJobs_Jaspreet.pdf"
 import covertPaper from "../../../public/assets/covert_paper.pdf"
+// import agentsPaper from "../../../public/assets/agents_free.pdf"
 import covertBiases from "../../images/pubs/Figure1_COV_updated.png";
+import agents from "../../images/pubs/agents_free.png";
 
 const pubs: Pub[] = [
+{
+  title: "Will AI Agents Free Us From Meaningless Work? A Human-Centered Analysis",
+  author:
+    "Davide Ghia, Jaspreet Ranjit, Tania Cerquitelli, Daniele Quercia",
+  venue: "CHIWORK",
+  image: agents,
+  summary:
+    "Workers may prefer AI to automate specific tasks rather than entire jobs, especially those they perceive as meaningless or “bullshit.” Using ratings from 202 workers across 171 workplace tasks, the study validates a measure of perceived bullshitness and finds that tasks rated as more bullshit are much more likely to be seen as suitable for AI delegation. These tasks are also viewed as requiring less human oversight, suggesting that worker preferences for automation align with perceptions of where AI can be most effectively applied.",
+  paper: "https://arxiv.org/abs/2606.12430",
+  year: 2026,
+  tags:[]
+},
+
+
 {
   title: "Side-by-side Comparison Amplifies Dialect Bias in Language Models",
   author:
     "Kritee Kondapally, Claire J. Smerdon, Pooja Chetan Patel, Ogheneyoma Akoni, Jevon Torres, Jaspreet Ranjit, Matthew Finlayson, Swabha Swayamdipta ",
-  venue: "Under Review @FAccT",
+  venue: "In Proceedings @FAccT",
   image: covertBiases,
   summary:
     "Language models can exhibit covert dialect bias, systematically associating negative stereotypes with certain dialects. We measure this bias by evaluating how models assign stereotypical traits to intent-equivalent tweets in Standard American English (SAE) and African American Vernacular English (AAVE). We find that bias is amplified when tweets are compared side-by-side and further worsens when dialect labels are made explicit. We introduce counterfactual fairness fine-tuning to mitigate this bias for some traits.",
   paper: covertPaper,
-  // code: "https://github.com/dill-lab/interventions_lm_assistants",
+  code: "https://dill-lab.github.io/dialect_bias_llms/",
   award: "Best Responsible AI Impact Award at SoCal AI Responsibility Summit'25",
   year: 2026,
   tags:[]
@@ -57,12 +73,12 @@ const pubs: Pub[] = [
   title: "Are We Automating the Joy Out of Work? Designing AI to Augment Work, Not Meaning",
   author:
     "Jaspreet Ranjit, Ke Zhou, Swabha Swayamdipta, Daniele Quercia",
-  venue: "In Proceedings @CHI'26",
+  venue: "In Proceedings @CHI",
   image: automatingJobs,
   summary:
     "Prior work has mapped which workplace tasks are exposed to AI, but less is known about whether workers perceive these tasks as meaningful or as busywork. We surveyed workers and developers on a representative sample of 171 tasks and use language models to scale ratings to 10,131 tasks across all U.S. computer-assisted tasks. Worryingly, we find that tasks that workers associate with a sense of agency or happiness may be disproportionately exposed to AI. We also document HCI design gaps between workers and developers and propose a  five-part research agenda explicitly centering AI design on meaningful work and worker needs.",
   paper: "https://arxiv.org/abs/2603.14963",
-  project: "https://social-dynamics.net/ai-impact/automating-joy/",
+  code: "https://social-dynamics.net/ai-impact/automating-joy/",
   year: 2026,
   tags:[]
 },
@@ -71,14 +87,14 @@ const pubs: Pub[] = [
   title: "Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants",
   author:
     "Jaspreet Ranjit, Hyundong J. Cho, Claire J. Smerdon, Yoonsoo Nam, Myles Phung, Jonathan May, John R. Blosnich, Swabha Swayamdipta",
-  venue: "In Proceedings at @ACL'26, GenAI4Health @NeurIPS, EAAMO, ShowCAIS",
+  venue: "In Proceedings at @ACL'26, GenAI4Health @NeurIPS'25, EAAMO'25, ShowCAIS'25",
   image: nvdrs,
   summary:
     "We use language models to help suicide-prevention experts extract data-driven insights and develop new interventions using death narratives. We find that LMs can serve as effective assistants in validating expert annotations (85% agreement), and when they disagree, expert review finds our LM assistant surfaces annotation errors in 38% of cases. We also introduce a human-in-the-loop method that helps experts build and refine new annotation guidelines accelerating the process from weeks to hours in a real world case study. ",
   paper: "https://arxiv.org/abs/2508.18541",
   code: "https://github.com/dill-lab/interventions_lm_assistants",
   award: "Runner up for best doctoral oral presentation at ShowCAIS 2025",
-  year: 2025,
+  year: 2026,
   tags:[]
 },
 
@@ -87,7 +103,7 @@ const pubs: Pub[] = [
     "OATH-Frames: Characterizing Online Attitudes Towards Homelessness via LLM Assistants",
   author:
     "Jaspreet Ranjit, Brihi Joshi, Rebecca Dorn, Laura Petry, Olga Koumoundouros, Jayne Bottarini, Peichen Liu, Eric Rice, Swabha Swayamdipta",
-  venue: "Proceedings of EMNLP",
+  venue: "In Proceedings of EMNLP",
   image: oath,
   summary:
     "Public attitudes towards key societal issues (e.g., homelessness), are of immense value in policy and reform efforts, yet challenging to understand at scale. We introduce a framing typology: Online Attitudes Towards Homelessness (OATH) Frames: nine hierarchical frames capturing critiques, responses and perceptions. We release annotations with varying degrees of assistance from language models, with immense benefits in scaling: 6.5x speedup in annotation time while only incurring a 3 point F1 reduction in performance with respect to the domain experts.",

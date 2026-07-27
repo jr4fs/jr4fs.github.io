@@ -70,7 +70,9 @@ function Masthead() {
             Hello! I'm a 4th Year PhD Candidate at the University of Southern California advised by <a href="https://swabhs.com/">Prof. Swabha Swayamdipta</a> in the NLP department at the <a href="https://dill-lab.github.io/">DILL Lab</a>, a student leader for the <a href="https://cais.usc.edu/news/life-after-cais-microsoft-scientist-shahrzad-gholamis-journey-in-harnessing-ai-for-social-good/">Center for AI in Society
             </a> and also Secretary for the Women in Science and Engineering at USC. 
             
-            I study how humans and AI systems can collaborate to complete high-impact societal tasks more effectively. I examine the sociotechnical conditions under which language models can responsibly augment expert reasoning. I focus on domains like homelessness services and suicide prevention, where reliable collaboration and expert oversight are essential.
+            My research advances approaches for collaborating with, and evaluating AI systems in societally important, high-stakes domains, particularly in social services, public health, and mental health care, including examining the safety risks of deploying language models in these settings. 
+            Recently, I've also been interested in how AI agents will impact the future of work, and how we can center worker wellbeing, meaning, and experience in human-AI collaboration. 
+            
           </p>
           <p>
             Previously, I interned with the Social and Responsible AI Team at <a href="https://social-dynamics.net/newsletter/2024/">Bell Labs</a>, and I was a Research Assistant in the <a href="https://www.vislang.ai/">Vision, Language and Learning Lab,</a>
@@ -82,6 +84,13 @@ function Masthead() {
             <a target="_blank" href={"/assets/Resume_2026.pdf"} title="CV">
               CV.
             </a>
+          
+          If you want to chat about research or academia, please reach out to me at jranjit[@]usc[.]edu, especially if you are a woman/minority student considering grad school!
+
+          {/* Special interest in interdisicplinary collaborations and working directly with stakeholders and community partners to build deployable tools that support socially impactful outcomes. 
+          Developing tool that assists practitioners in extracting insights from large scale, unstructured text data for decision augmentaiton. 
+          If you're a part of a community organizaztion interested in a demo, reach out here - , link to homepage for codebook dev demo. 
+          Outside of research, involved in LA community as an active volunteer at School on Wheels.  */}
 
           </p>
 

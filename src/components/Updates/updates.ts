@@ -417,7 +417,7 @@ const updates: Update[] = [
   },
   {
     text: "🏆 Received a best poster award at ShowCAIS 2026 for our ongoing work: Multi-Turn Interactions Reveal Hidden Safety Failures in Mental Health Language Model Use",
-    month: "Apr",
+    month: "Mar",
     year: 2026,
     tags: ["award"],
     links: [
@@ -439,8 +439,99 @@ const updates: Update[] = [
       }
     ],
   },
-
+  {
+    text: "Shout out to my amazing mentees Kritee, Claire, Pooja, and Ogheneyoma whose work on: 'Side-by-side Comparison Amplifies Dialect Bias in Language Models' was accepted to FAccT'26. Link to paper.",
+    month: "Apr",
+    year: 2026,
+    tags: ["paper"],
+    links: [
+      {
+        text: "Link to paper.",
+        url: "https://jr4fs.github.io/assets/covert_paper-PINJYqZk.pdf"
+      },
+      {
+        text: "Kritee",
+        url: "https://www.linkedin.com/in/kritee-kondapally-41b86218b/"
+      },
+      {
+        text: "Claire",
+        url: "https://www.linkedin.com/in/claire-smerdon/"
+      },
+      {
+        text: "Pooja",
+        url: "https://www.linkedin.com/in/pooojapatel/"
+      },
+    ],
+  },
+  {
+    text: "Thrilled to share that I will be joining the DSSG'26 fellowship cohort this summer at Johns Hopkins University!",
+    month: "Apr",
+    year: 2026,
+    tags: ["milestone"],
+    links: [
+      {
+        text: "DSSG'26",
+        url: "https://dssgfellowship.org/"
+      }
+    ],
+  },
+  {
+    text: "Our follow-up work: 'Will AI Agents Free Us From Meaningless Work? A Human-Centered Analysis' was accepted to CHIWORK'26!",
+    month: "May",
+    year: 2026,
+    tags: ["paper"],
+    links: [
+      {
+        text: "Will AI Agents Free Us From Meaningless Work? A Human-Centered Analysis",
+        url: "https://arxiv.org/abs/2606.12430"
+      },
+      {
+        text:"CHIWORK'26",
+        url: "https://chiwork.org/26/"
+      }
+    ],
+  },
+  {
+    text: "Our work “Are We Automating the Joy Out of Work? Designing AI to Augment Work, Not Meaning” was presented at TEDxBerlin ✨",
+    month: "Jun",
+    year: 2026,
+    tags: ["talk"],
+    links: [
+      {
+        text: "TEDxBerlin",
+        url: "https://www.linkedin.com/posts/daniele-quercia-6739921_tedxberlin-ai-responsibleai-ugcPost-7470459425770647554-JbuJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWKPtYBIg6pQpeyA1M8YECeJemwDpisPw8"
+      }
+    ],
+  },
+  {
+    text: "Had my first podcast appearance for the GovEx Data Points Podcast 🎙️",
+    month: "July",
+    year: 2026,
+    tags: ["talk"],
+    links: [
+      {
+        text: "Data Points Podcast",
+        url: "https://open.spotify.com/episode/4eUxn281qxBSCKIvLGZCk2?si=49f0e7107e354b00"
+      }
+    ],
+  },
+  {
+    text: "Gave a talk at JHU in Anjalie Field's Lab!",
+    month: "July",
+    year: 2026,
+    tags: ["talk"],
+    links: [
+      {
+        text: "Anjalie Field's Lab",
+        url: "https://jhu-field-lab.github.io/"
+      }
+    ],
+  },
 ];
+
+
+// papers: AJPH, IJCAI, CoDA tool! 
+//USC PR w/ marc ballon
 
 // sort updates by date
 updates.sort((a, b) => {

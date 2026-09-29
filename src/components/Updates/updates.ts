@@ -505,7 +505,7 @@ const updates: Update[] = [
   },
   {
     text: "Had my first podcast appearance for the GovEx Data Points Podcast 🎙️",
-    month: "July",
+    month: "Jul",
     year: 2026,
     tags: ["talk"],
     links: [
@@ -517,7 +517,7 @@ const updates: Update[] = [
   },
   {
     text: "Gave a talk at JHU in Anjalie Field's Lab!",
-    month: "July",
+    month: "Jul",
     year: 2026,
     tags: ["talk"],
     links: [
@@ -527,11 +527,59 @@ const updates: Update[] = [
       }
     ],
   },
+  {
+    text: "Our work on 'Expert-in-the-Loop LLM Pipeline for Detecting the Illegal Wildlife Trade of Pangolins Online', an application of CoDA, was accepted and presented at the Workshop on AI Systems for the Environment (AISE-2026)",
+    month: "Jul",
+    year: 2026,
+    tags: ["paper"],
+    links: [
+      {
+        text: "Workshop on AI Systems for the Environment",
+        url: "https://sites.google.com/view/aise2026/schedule#:~:text=%5B14%3A15%E2%80%9314%3A30%5D%20Expert%2Din%2Dthe%2DLoop%20LLM%20Pipeline%20for%20Detecting%20the%20Illegal%20Wildlife%20Trade%20of%20Pangolins%20Online%20%2D%20Hannah%20Murray%2C%20Jaspreet%20Ranjit%2C%20Trent%20Kobielusz%2C%20Jeena%20Mahajan%2C%20Swaminathan%20Chellappa%2C%20Augusto%20Rivas%20Costante%20and%20Bistra%20Dilkina%20%5BPDF%5D"
+      }
+    ],
+  },
+  {
+    text: "Our work on 'Mortality Research With Artificial Intelligence Tools: Applying Language Models to the National Violent Death Reporting System Suicide Narratives, 2003–2023' was accepted to the American Journal of Public Health! Incredibly proud of this work!",
+    month: "Jul",
+    year: 2026,
+    tags: ["paper"],
+    links: [
+      {
+        text: "American Journal of Public Health",
+        url: "https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308618"
+      }
+    ],
+  },
+  {
+    text: "Super excited to share that my first System Demo paper: 'CoDA: A Human-LM Collaborative Codebook Development Assistant for Domain-Specific Text Annotation' was accepted to EMNLP 2026! Stay tuned for our paper and open source release 🚀",
+    month: "Aug",
+    year: 2026,
+    tags: ["paper"],
+    // links: [
+    //   {
+    //     text: "American Journal of Public Health",
+    //     url: "https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308618"
+    //   }
+    // ],
+  },
+  {
+    text: "📸 Got some media coverage for our work on Uncovering Intervention Opportunities for Suicide Prevention with Language Model Assistants!",
+    month: "Sep",
+    year: 2026,
+    tags: ["press"],
+    links: [
+      {
+        text: "media coverage",
+        url: "https://viterbischool.usc.edu/news/2026/09/the-lawyers-office-may-be-a-lifeline/"
+      }
+    ],
+  },
 ];
 
 
-// papers: AJPH, IJCAI, CoDA tool! 
-//USC PR w/ marc ballon
+// papers: CoDA tool! 
+//pleasants award 
 
 // sort updates by date
 updates.sort((a, b) => {

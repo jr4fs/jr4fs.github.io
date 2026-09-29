@@ -67,7 +67,7 @@ function Masthead() {
 
           <p>
 
-            Hello! I'm a 4th Year PhD Candidate at the University of Southern California advised by <a href="https://swabhs.com/">Prof. Swabha Swayamdipta</a> in the NLP department at the <a href="https://dill-lab.github.io/">DILL Lab</a>, a student leader for the <a href="https://cais.usc.edu/news/life-after-cais-microsoft-scientist-shahrzad-gholamis-journey-in-harnessing-ai-for-social-good/">Center for AI in Society
+            Hello! I'm a 5th Year PhD Candidate at the University of Southern California advised by <a href="https://swabhs.com/">Prof. Swabha Swayamdipta</a> in the NLP department at the <a href="https://dill-lab.github.io/">DILL Lab</a>, a student leader for the <a href="https://cais.usc.edu/news/life-after-cais-microsoft-scientist-shahrzad-gholamis-journey-in-harnessing-ai-for-social-good/">Center for AI in Society
             </a> and also Secretary for the Women in Science and Engineering at USC. 
             
             My research advances approaches for collaborating with, and evaluating AI systems in societally important, high-stakes domains, particularly in social services, public health, and mental health care, including examining the safety risks of deploying language models in these settings. 
@@ -75,7 +75,7 @@ function Masthead() {
             
           </p>
           <p>
-            Previously, I interned with the Social and Responsible AI Team at <a href="https://social-dynamics.net/newsletter/2024/">Bell Labs</a>, and I was a Research Assistant in the <a href="https://www.vislang.ai/">Vision, Language and Learning Lab,</a>
+            Previously, I interned with the Social and Responsible AI Team at <a href="https://social-dynamics.net/newsletter/2024/">Bell Labs</a>, was a Data Science for Social Good Fellow under Rayid Ghani (<a href="https://dssgfellowship.org/">DSSG'26</a>), and I was a Research Assistant in the <a href="https://www.vislang.ai/">Vision, Language and Learning Lab,</a>
             working with <a href="https://www.vicenteordonez.com/">Prof. Vicente Ord&oacute;&ntilde;ez - Rice Univ.</a> and <a href="https://tianlu-wang.github.io/">Tianlu Wang - Meta Research </a>  on exploring gender biases in Visual Recognition Models. 
 
             I graduated with my Master's in Computer Science from the <a href="https://engineering.virginia.edu/">University of Virginia</a>. I received my Bachelor of Science at the University of Virginia in Computer Science as a Rodman Scholar. 

@@ -38,8 +38,47 @@ import covertPaper from "../../../public/assets/covert_paper.pdf"
 // import agentsPaper from "../../../public/assets/agents_free.pdf"
 import covertBiases from "../../images/pubs/Figure1_COV_updated.png";
 import agents from "../../images/pubs/agents_free.png";
+import wildlife from "../../images/pubs/wildlife.png";
+import coda from "../../images/pubs/CoDA.png";
 
 const pubs: Pub[] = [
+{
+  title: "CoDA: A Human-LM Collaborative Codebook Development Assistant for Domain-Specific Text Annotation",
+  author:
+    "Jaspreet Ranjit, Swaminathan Chellappa, Augusto Rivas Costante, Chandan Manjunath, Laura Onasch-Vera, Hailey Winetrobe Nadel, Eric Rice, and Swabha Swayamdipta",
+  venue: "EMNLP System Demo",
+  image: coda,
+  summary:
+    "We present CoDA, an open-source human-LM collaborative codebook development assistant that enables scalable annotation of new variables in unstructured text. CoDA collaborates with domain experts to iteratively develop codebooks through targeted review of incorrect language model predictions and incorporation of expert feedback into the evolving codebook. CoDA produces codebooks that achieve performance comparable to expert codebooks while reducing development time from several weeks to approximately two hours and using 5× fewer manually annotated examples.",
+  // paper: "https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308618",
+  year: 2026,
+  tags:[]
+},
+{
+  title: "Mortality Research With Artificial Intelligence Tools: Applying Language Models to the National Violent Death Reporting System Suicide Narratives, 2003–2023  ",
+  author:
+    "John R. Blosnich, Jaspreet Ranjit, and Swabha Swayamdipta",
+  venue: "American Journal of Public Health",
+  image: nvdrs,
+  summary:
+    "Suicide deaths in the United States have increased for decades, highlighting the need for new approaches to prevention research. We apply language models to hundreds of thousands of suicide death narratives collected by the National Violent Death Reporting System between 2003 and 2023. Our approach makes it possible to analyze detailed circumstances surrounding these deaths at a scale that manual review cannot achieve, helping researchers uncover patterns and insights that structured data alone may miss.",
+  paper: "https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308618",
+  year: 2026,
+  tags:[]
+},
+
+{
+  title: "Expert-in-the-Loop LLM Pipeline for Detecting the Illegal Wildlife Trade of Pangolins Online",
+  author:
+    "Hannah Murray, Jaspreet Ranjit, Trent Kobielusz, Jeena Mahajan, Swaminathan Chellappa, Augusto Rivas Costante and Bistra Dilkina",
+  venue: "AI Systems for the Environment (AISE)",
+  image: wildlife,
+  summary:
+    "Illegal wildlife traffickers use coded language, species nicknames, and emojis to evade online detection. We introduce a human-in-the-loop pipeline combining expert annotation with LLM-assisted codebook generation to identify covert trafficking posts. In a case study of roughly 240,000 pangolin-related posts across social media platforms, our approach increased recall from 3.2% with a standard toolkit to 78.4%, demonstrating the promise of structured human–LLM collaboration for detecting illegal wildlife trade.",
+  paper: "https://www.dropbox.com/scl/fi/lqrzu7xdgmqslsiygx4mv/1_Expert-in-the-Loop-LLM-Pipeline-for-Detecting-the-Illegal-Wildlife-Trade-of-Pangolins-Online.pdf?rlkey=1c3fijg7b8g8m7n4vf726uffd&st=grw2o9hz&e=1&dl=0",
+  year: 2026,
+  tags:[]
+},
 {
   title: "Will AI Agents Free Us From Meaningless Work? A Human-Centered Analysis",
   author:
